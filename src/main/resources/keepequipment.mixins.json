@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.leclowndu93150.keepequipment.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "keepequipment.refmap.json",
+  "mixins": [
+    "PlayerMixin",
+    "ServerPlayerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
